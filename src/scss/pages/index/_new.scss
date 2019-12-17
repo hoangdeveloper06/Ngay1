@@ -1,0 +1,52 @@
+.index-5 {
+    float: left;
+    width: 100%;
+    padding: 100px 0;
+    .title {
+        width: 100%;
+        h3 {
+            position: relative;
+            padding-left: 35px;
+            color: #000;
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 45px;
+            &::after {
+                content: '';
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 5px;
+                background-color: $main_color;
+            }
+        }
+    }
+    .list-item {
+        margin-top: 20px;
+        .item {
+            width: 100%;
+            position: relative;
+            .box-img {
+                width: 100%;
+                height: 220px;
+                padding: 1%;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .btn-new {
+        margin-left: auto;
+        display: block;
+        border-bottom: 5px solid #ed2024;
+        background: #124e91;
+        width: 205px;
+        color: #fff;
+        font-size: 24px;
+        line-height: 55px;
+        text-align: center;
+    }
+}
