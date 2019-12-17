@@ -1,0 +1,80 @@
+.banner {
+    float: left;
+    width: 100%;
+    .swiper-slide {
+        width: 100%;
+        height: 800px;
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 800px;
+            background-color: rgba(0, 0, 0, .5);
+        }
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        .txt-slide {
+            position: absolute;
+            width: 35%;
+            height: auto;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            .mb-2 {
+                margin-bottom: 20px;
+            }
+            .title-txt {
+                p {
+                    font-size: 3.5rem;
+                    font-weight: 400;
+                    color: #fff;
+                    text-shadow: 2px 2px rgba(0, 0, 0, .5);
+                }
+            }
+            .title {
+                p {
+                    font-size: 3rem;
+                    font-weight: 700;
+                    color: #fff;
+                    text-shadow: 2px 2px rgba(0, 0, 0, .5);
+                }
+            }
+            .txt {
+                p {
+                    font-size: 1.3rem;
+                    font-weight: 400;
+                    color: #fff;
+                    text-shadow: 2px 2px rgba(0, 0, 0, .5);
+                }
+            }
+            .btn {
+                width: 150px;
+                padding: 2%;
+                position: relative;
+                background-color: #08508b;
+                &.mt-5 {
+                    margin-top: 50px;
+                }
+                &::after {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    height: 5px;
+                    background-color: #ff3614;
+                }
+                a {
+                    font-size: 1.5rem;
+                    font-weight: 400;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

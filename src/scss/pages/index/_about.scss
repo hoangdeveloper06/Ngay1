@@ -1,0 +1,59 @@
+.about-container {
+    float: left;
+    width: 100%;
+    .left-box {
+        width: 100%;
+        .title-wrapper {
+            width: 30%;
+            padding: 2%;
+            border-left: solid 10px #ff4f00;
+            text-align: center;
+            h2 {
+                font-size: 1.8em;
+                font-weight: 700;
+            }
+        }
+        .txt {
+            width: 100%;
+            p {
+                font-size: 1rem;
+                padding: 2%;
+            }
+        }
+        .main-about {
+            width: 100%;
+            padding: 2%;
+            .about-icon {
+                width: 100%;
+                height: 20px;
+                background-color: red;
+            }
+            .about-wrapper {
+                width: 100%;
+                .title-about {
+                    p {
+                        font-size: 1.5rem;
+                        font-weight: 400;
+                        color: #08508b;
+                    }
+                }
+            }
+        }
+    }
+    .right-box {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+.mb-3 {
+    margin-bottom: 30px;
+}
+
+.p0 {
+    padding: 0;
+}
