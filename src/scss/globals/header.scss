@@ -42,16 +42,16 @@ header {
     ul {
         float: right;
         width: 80%;
-        margin-left: 20px;
-        padding: 1% 0 0;
+        margin-right: auto;
+        padding: 0 10px;
         display: flex;
         li {
             list-style: none;
             text-align: center;
             padding: 1%;
-            max-width: 150px;
+            width: auto;
             a {
-                line-height: 100px;
+                line-height: 110px;
                 font-weight: 600;
                 color: #08508b;
                 font-size: 1.3em;
