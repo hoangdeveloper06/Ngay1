@@ -36,6 +36,63 @@
                     height: 100%;
                 }
             }
+            figcaption {
+                margin-top: 20px;
+                h5 {
+                    position: relative;
+                    padding: 10px 0 10px 30px;
+                    color: $h5a_color;
+                    font-size: 24px;
+                    &::after {
+                        position: absolute;
+                        top: 50%;
+                        left: 0;
+                        transform: translateY(-50%);
+                        background: #ff3900;
+                        width: 3px;
+                        height: 100%;
+                        content: "";
+                    }
+                }
+                .date {
+                    padding-left: 30px;
+                    color: #737373;
+                    font-size: 12px;
+                }
+                p {
+                    margin-top: 15px;
+                    padding-left: 30px;
+                    color: #737373;
+                    &.limit-text {
+                        -webkit-box-orient: vertical;
+                        display: -webkit-box;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                }
+            }
+            .read-more {
+                margin-top: 50px;
+                margin-left: 30px;
+                &.read-more:not(.rotate) {
+                    display: inline-block;
+                    position: relative;
+                    padding-left: 40px;
+                    color: #124e91;
+                    font-weight: 700;
+                }
+                &:after {
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    transform: translateY(-50%) rotate(180deg);
+                    background-image: url(../assets/icon/read-more.svg);
+                    background-size: cover;
+                    width: 32px;
+                    height: 32px;
+                    content: "";
+                }
+            }
         }
     }
     .btn-new {
